@@ -87,10 +87,10 @@ nav .flex {
     color: white;
     margin-left: 5px;
 }
-.main input{
-    padding: 10px 100px 10px 15px;
-    font-size: 25px;
-    font-weight: 200;
+ input{
+    padding: 20px 100px 14px 15px;
+    font-size: 16px;
+    font-weight: 400;
     border: 1px solid red;
     border-radius: 4px;
     color: white;
@@ -117,5 +117,58 @@ nav .flex {
     border-radius: 4px;
     margin-right: 20px;
     background-color: rgba(23, 23, 23, 0.7);
+}
+.sec-image {
+    position: relative;
+}
+.sec-image video {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    width: 30vw;
+}
+.sec-image img {
+    position: relative;
+    z-index: 10;
+    width: 35vw;
+}
+.first-sec-text {
+    display: flex;
+    flex-direction: col;
+    align-items: start;
+}
+.first{
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.third-vid video {
+    width: 23vw;
+    top: 30px;
+    left: 81px;
+}
+
+.faqs {
+    color: white;
+    height: 110vh;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 75vw;
+    background: rgba(128, 128, 128, 0.405);
+    height: 10vh;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.boxes:hover {
+    background-color: rgba(128, 128, 128, 0.606);
 }
 
