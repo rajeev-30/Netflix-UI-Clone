@@ -74,12 +74,13 @@ nav .flex {
     background-color: rgb(46, 45, 45);
 }
 .btn {
+    cursor: pointer;
     border: none;
     padding: 3px 8px;
     font-weight: bold;
 }
 .btn-red {
-    
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
