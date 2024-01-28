@@ -12,7 +12,7 @@ body {
     background-position: center center;
     background-size: max(1500px, 100vw);
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100vw;
     height: 85vh;
     position: relative;
 }
@@ -149,12 +149,15 @@ nav .flex {
 }
 .first-sec-text {
     display: flex;
-    flex-direction: col;
-    align-items: start;
+    width: 85vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
 }
 .first{
     height: 70vh;
-    width: 80vw;
+    max-width: 80vw;
     margin: auto;
     display: flex;
     align-items: center;
@@ -269,7 +272,7 @@ footer span {
     }
 
     .first{
-        height: 55vh;
+        height: 60vh;
         width: 85vw;
         margin: auto;
         display: flex;
@@ -279,10 +282,11 @@ footer span {
     }
     .first-sec-text {
         display: flex;
-        width: 100%;
-        height: 50%;
+        width: 106%;
+        height: 25%;
         flex-direction: column;
         align-items: start;
+        justify-content: start;
     }
     .sec-image video {
         position: absolute;
